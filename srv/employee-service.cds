@@ -5,4 +5,5 @@ service EmployeeService {
     entity Employees as select from bp.EMPLOYEE;
     // Another read only entity for Employee
     @readonly entity ReadOnlyEmployees as select from bp.EMPLOYEE;
+    // Changes from BAS
 }
